@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.head, .links {
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .7);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .5) 10px 10px 80px;
+  width: 400px;
+  max-width: calc(100vw - 10px);
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  padding: 1px;
+  background-color: #666;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+img:hover {
+  transform: scale(1.2);
+   filter: grayscale(20%);
+}
+.profile-image {
+  margin-top: -60px;
+}
+/* Contact links */
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  color: black;
+}
+body {
+  background: url('assets/Lake%20-%20Imgur.jpg') no-repeat center center fixed;
+  background-size: cover;
+  
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+span {
+  color: grey;
+  font-size: 14px
+}
+h1 {
+  font-size: 30px;
+}
+.contact {
+  color: ;
+  margin-bottom: 15px
+}
+.socialicon {
+  color: hsla(222, 92%, 0%, .7);
